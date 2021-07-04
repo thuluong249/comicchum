@@ -1,0 +1,19 @@
+[{
+        "name": "Batman 1",
+        "user_rating": 5,
+        "main_character": "Batman",
+        "year": "1930"
+    },
+    {
+        "name": "Superman 1",
+        "user_rating": 5,
+        "main_character": "Superman",
+        "year": "1929"
+    },
+    {
+        "name": "Spiderman 1",
+        "user_rating": 5,
+        "main_character": "Spiderman",
+        "year": "1940"
+    }
+]
