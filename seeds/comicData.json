@@ -9,7 +9,7 @@
     {
         "name": "Action Comics",
         "user_rating": 5,
-        "main_character": "Superman",
+        "main_character": "Superman", 
         "author": "Joe Shuster",
         "year": "1938",
         "cover": "https://upload.wikimedia.org/wikipedia/en/5/5a/Action_Comics_1.jpg"
@@ -55,44 +55,43 @@
         "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8049467-01a.jpg"
     },
     {
-        "name": "",
-        "user_rating": "",
-        "main_character": "",
-        "author": "",
-        "year": "",
-        "cover": ""
+        "name": "Amazing Spiderman",
+        "user_rating": "5",
+        "main_character": "Peter Parker",
+        "author": "Stan Lee, Steve Ditko",
+        "year": "2012",
+        "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8051502-01.jpg"
     },
     {
-        "name": "",
-        "user_rating": "",
-        "main_character": "",
-        "author": "",
-        "year": "",
-        "cover": ""
+        "name": "Captain America",
+        "user_rating": "4",
+        "main_character": "Steve Rogers",
+        "author": "Jack Kirby, Joe Simon",
+        "year": "2011",
+        "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8051505-01.jpg"
     },
     {
-        "name": "",
-        "user_rating": "",
-        "main_character": "",
-        "author": "",
-        "year": "",
-        "cover": ""
+        "name": "Power Rangers Unlimited",
+        "user_rating": "3",
+        "main_character": "Kimberly, Black Power ranger",
+        "author": "Haim Saban Shuki Levy",
+        "year": "1993",
+        "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8049483-01a.jpg"
     },
     {
-        "name": "",
-        "user_rating": "",
-        "main_character": "",
-        "author": "",
-        "year": "",
-        "cover": ""
+        "name": "Kane & Able",
+        "user_rating": "2",
+        "main_character": "Jack Kirby & Stan Lee",
+        "author": "Krent Able & Shaky Kane",
+        "year": "2021",
+        "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/7/71975/8053264-kaa.jpg"
     },
     {
-        "name": "",
-        "user_rating": "",
-        "main_character": "",
-        "author": "",
-        "year": "",
-        "cover": ""
-    },
-
+        "name": "Spawn",
+        "user_rating": "2",
+        "main_character": "Cy-Gor, Jericho, Sam bruke, Soul Crusher, Simmons",
+        "author": "Carlo Barberi, Jay David Ramos, Thomas Healy",
+        "year": "2019",
+        "cover": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/8049636-319a.jpg"
+    }
 ]
