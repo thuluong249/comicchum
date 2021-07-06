@@ -2,13 +2,13 @@ const express = require("express");
 
 const app = express();
 
-connectDB();
+// connectDB();
 
 //init middleware
 
 app.get("/", (req, res) => res.send("API RUNNING"));
 // define routes
-app.use("/api/index", require("./routes/api/index"));
+app.use("/api/index", require("./controllers/api"));
 app.use("/api/homeroutes", require("./routes/api/homeroutes"));
 
 const PORT = process.env.PORT || 5000;
