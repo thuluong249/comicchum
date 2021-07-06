@@ -1,11 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Project extends Model {}
+class Comics extends Model {}
 
 //will need to change values and names below
 
-Project.init({
+Comics.init({
     id: {
         type: DataTypes.INTEGER,
         allowNull: false,
@@ -16,31 +16,32 @@ Project.init({
         type: DataTypes.STRING,
         allowNull: false,
     },
-    description: {
+    comments: {
         type: DataTypes.STRING,
+        allowNull: true,
     },
-    date_created: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
+    main_charachter: {
+        type: DataTypes.STRING,
+        allowNull: true,
     },
-    needed_funding: {
-        type: DataTypes.FLOAT,
-        allowNull: false,
+    author: {
+        type: DataTypes.STRING,
+        allowNull: true,
     },
-    user_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'user',
-            key: 'id',
-        },
+    year: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    cover: {
+        type: DataTypes.STRING,
+        allowNull: true,
     },
 }, {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'comics',
 });
 
-module.exports = Project;
+module.exports = Comics;
