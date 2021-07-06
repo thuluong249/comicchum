@@ -1,6 +1,6 @@
 const User = require('./User');
 const Comic = require('./Comic');
-
+const Project = require('./Project')
 User.hasMany(Comic, {
     foreignKey: 'user_id',
     onDelete: 'CASCADE'

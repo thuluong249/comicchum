@@ -29,7 +29,7 @@ Comics.init({
         allowNull: true,
     },
     year: {
-        type: DataTypes.YEAR,
+        type: DataTypes.STRING,
         allowNull: true,
     },
     cover: {
