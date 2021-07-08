@@ -14,6 +14,9 @@ const hbs = exphbs.create({ helpers });
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
+// app.get("/users", (req, res) => {
+//   res.render("index");
+// });
 // app.get("/", (req, res) => res.send("API RUNNING"));
 // define routes
 app.use("/api", require("./controllers/api"));
