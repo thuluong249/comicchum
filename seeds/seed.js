@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { User, Comic } = require('../models');
+const { User, Comics } = require('../models');
 
 const userData = require('./userData.json');
 const comicData = require('./comicData.json');
@@ -13,11 +13,13 @@ const seedDatabase = async() => {
     });
 
     for (const comics of comicData) {
-        await Comic.create({
-            ...comic,
+        await Comics.create({
+            ...comics,
             user_id: users[Math.floor(Math.random() * users.length)].id,
         });
     }
+
+    const comics = await Comics.bulkCreate(comicData);
 
     process.exit(0);
 };
