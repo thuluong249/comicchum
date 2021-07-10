@@ -1,6 +1,5 @@
 # Comic Chums!
 
-
 ![Banner](./public/images/comicbook1.jpeg)
 
 ![License](https://img.shields.io/badge/LICENSE-MIT-GREEN)
@@ -18,10 +17,6 @@ This app if properly functioning will act as a database for users to share comic
 - [Technologies Used](#Technologies)
 - [Screenshot](#Screenshot)
 - [Contact](#Contact)
-
-
-
-
 
 #
 ## 🔗 Links
@@ -58,9 +53,7 @@ You will need to install all the packages using npm i, beside that you will need
 
 #
 
-
 ![Video](./public/images/video.gif)
-
 
 #
 ## ☎️ Contact
