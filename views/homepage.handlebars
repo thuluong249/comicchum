@@ -1,20 +1,24 @@
 
-    <div class="ui grid">
-      <div class="four wide column">
-        <div class="ui vertical fluid tabular menu">
-          <ul>
-       {{#each comics as |comic|}}
-       <li>{{name}}</li>
-       <img src= "{{cover}}" style="max-width: 200px; height:auto;"/>
+    <div  class="ui grid">
+      {{!-- <div class="four wide column"> --}}
+        {{!-- <div class="ui vertical fluid tabular menu"> --}}
+          <ul style="display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; 
+   margin-bottom: 2%;">
+       {{#each comics as |comic| }}
        
-  
+       <img src= "{{cover}}" style="max-width: 200px;  margin-top:40px; " />
        {{/each}}
        </ul>
         </div>
       </div>
-      <div class="twelve wide stretched column">
+      
+      {{!-- <div class="twelve wide stretched column">
         <div class="ui segment">
         </div>
       </div>
     </div>
-  
+   --}}
+<li >{{name}}</li>
